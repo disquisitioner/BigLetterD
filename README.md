@@ -6,7 +6,7 @@ While perusing a local merchant's sale table I spotted a metal "D" art piece wit
 ## Physical Assembly
 Removing the existing white LEDs and battery pack was easy enough.  That left a set of frosted white plastic domes on the front of the 'D', which the LEDs had previously shone through, as the locations for Neopixel replacements.  I initially experimented with individual Neopixels but discovered I could more easily insert and connect if I started with a pre-wired [Neopixel strand](https://www.adafruit.com/product/3631), which could be cut to any length and give me the eight I needed.  
 
-Fastening the Neopixels to the back of the white plastic domes required a bit of tinkering. After some unsatisfying direct solutions I found the bets results came from using small rubber o-rings as a mounting gasket, epoxying them to the white plastic domes and then epoxying the Neopixels to the o-rings.
+Fastening the Neopixels to the back of the white plastic domes required a bit of tinkering. After some unsatisfying direct solutions I found the best results came from using small rubber o-rings as a mounting gasket, epoxying them to the white plastic domes and then epoxying the Neopixels to the o-rings.  I was careful to center each Neopixel on the o-rings so they shone through the center of the white plastic domes.  I also learned that looping the cables between the Neopixels as I installed them helped take up the extra wire and hold the Neopixels in place while the epoxy dried.
 
 An [ESP32 V2 Feather](https://www.adafruit.com/product/5438) provided the controller, which I could fit inside the back of the 'D' and power with a flat USB-C cable.
 
