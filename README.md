@@ -9,3 +9,4 @@ Removing the existing white LEDs and battery pack was easy enough.  That left a 
 An [ESP32 V2 Feather](https://www.adafruit.com/product/5438) provided the controller, which I could fit inside the back of the 'D' and power with a flat USB-C cable.
 
 ## Software
+The Arduino sketch makes use of my [LED Control library](https://github.com/disquisitioner/LEDControl), which itself builds on the [FastLED library](https://github.com/FastLED/FastLED), simplifying animation of the Neopixels.  I'm currently running the BigLetterD_v2 sketch, which regularly cyles through a rich set of animations that I think look good in the short (eight Neopixel) strip in the 'D'.
