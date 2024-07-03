@@ -1,6 +1,6 @@
 # BigLetterD
 
-![End Result](./assets/BigLetterD.jpg)
+<img src="./assets/BigLetterD.jpg" height="400" />
 While perusing a local merchant's sale table I spotted a metal "D" art piece with basic white LEDs illuminating the inner portion of the 'D' itself.  Given that my name is "David" and my consulting business is "Disquiry, LLC" I couldn't pass it up.  My idea at the time was to replace the basic while LEDs with Neopixel smart LEDs and conceal a small Arduino controller behind the main body of the 'D' to power them.
 
 ## Physical Assembly
